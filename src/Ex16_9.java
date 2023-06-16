@@ -1,4 +1,6 @@
 /* 16장. 상속. pdf 파일의 No.32쪽의 9번문제 */
+
+
 class A2 extends Object{
 	public String toString() {
 		return "4";
@@ -9,10 +11,8 @@ class B2 extends A2{
 
 	@Override
 	public String toString() {
-		return super.toString() + "3";
+		return super.toString() + "3";//"43"		
 	} // 메서드 오버라이딩
-	
-
 	
 }
 

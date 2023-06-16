@@ -5,7 +5,7 @@ class Parent2 extends Object{
 	
 	public Parent2() {
 		super(); // 최고 조상 Object클래스의 기본생성자를 호출하면서 끝이남.
-		System.out.println("Parent2 클래스 기본생성자");
+		System.out.println("Parent2클래스 기본생성자");
 	}
 	
 	public Parent2(int a, int b, int c) {
